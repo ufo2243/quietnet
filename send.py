@@ -43,7 +43,7 @@ def play_buffer(buffer):
     stream.write(output)
 
 if __name__ == "__main__":
-    print("Welcome to quietnet. Use ctrl-c to exit")
+    print("Welcome to quietnet. Use ctrl-c to exit. Send at %sHz" % FREQ)
 
     try:
         # get user input and play message
